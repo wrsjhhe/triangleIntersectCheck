@@ -30,7 +30,10 @@
     <ClInclude Include="CheckIntersect.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="glut.h">
+    <ClInclude Include="glContext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linmath.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -51,6 +54,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Def.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="glContext.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

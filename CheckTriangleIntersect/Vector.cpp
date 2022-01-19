@@ -1,5 +1,5 @@
 #include "Vector.h"
-
+#include <complex>
 Vector::Vector() :data(double3{ 0.,0.,0. })
 {}
 
