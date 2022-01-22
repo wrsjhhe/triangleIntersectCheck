@@ -23,10 +23,18 @@ static const char* fragment_shader_text =
 "    fragment = vec4(color, 1.0);\n"
 "}\n";
 
+bool check = true;
+bool shouldExit = false;
 static void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods)
 {
 	if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
+	{
 		glfwSetWindowShouldClose(window, GLFW_TRUE);
+	}		
+	else if (key == GLFW_KEY_SPACE && action == GLFW_PRESS)
+	{
+		check = true;
+	}
 
 }
 GLContext::GLContext()
@@ -129,6 +137,10 @@ void GLContext::Draw()
 
 		glfwSwapBuffers(m_window);
 		glfwPollEvents();
+	}
+	else
+	{
+		shouldExit = true;
 	}
 }
 

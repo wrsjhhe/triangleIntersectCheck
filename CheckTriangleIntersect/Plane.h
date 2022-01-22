@@ -2,7 +2,7 @@
 #include "Vector.h"
 
 //定义的平面基类
-struct Plane
+struct  __declspec(dllexport) Plane
 {
 	Plane();
 	~Plane();

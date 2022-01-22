@@ -1,4 +1,4 @@
-#include "CheckIntersect.h"
+#include "../CheckTriangleIntersect/CheckIntersect.h"
 #include <iostream>
 #include <chrono>
 #include <random>
@@ -33,8 +33,7 @@ static void convertPoint(vec3& posOut,Point posIn)
 int main(int argc, char ** argv)
 {
 	GLContext glContext;
-	bool check = true;
-	while (true)
+	while (!shouldExit)
 	{
 		if (check)
 		{

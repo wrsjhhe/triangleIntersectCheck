@@ -1,7 +1,7 @@
 #pragma once
 #include "Triangle.h"
 
-class CheckIntersect
+class  __declspec(dllexport) CheckIntersect
 {
 public:
 	CheckIntersect(const Triangle& _tri1, const Triangle& _trri2);

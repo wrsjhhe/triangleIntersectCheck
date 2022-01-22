@@ -2,7 +2,7 @@
 #include "Plane.h"
 
 //定义的三角形类
-class Triangle :public Plane
+class  __declspec(dllexport) Triangle :public Plane
 {
 public:
 	Triangle();

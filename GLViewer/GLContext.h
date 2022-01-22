@@ -5,6 +5,8 @@
 #include "glfw3.h"
 #include "linmath.h"
 
+extern bool check;
+extern bool shouldExit;
 typedef struct GLVertex
 {
 	vec3 pos;

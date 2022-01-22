@@ -3,7 +3,7 @@
 
 
 //定义的向量类
-struct Vector
+struct  __declspec(dllexport) Vector
 {
 	Vector();
 	explicit Vector(const double3& _data);
