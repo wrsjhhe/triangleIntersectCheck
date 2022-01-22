@@ -10,4 +10,4 @@ vs2017以及以上版本直接打开工程文件即可
 ### GLViewer  
 一个简单的OpenGL可视化窗口，查看相交的结果  
 按空格箭进行下次判断，ESC键退出  
-![screenshot.png]   
+![./screenshot.png]   
